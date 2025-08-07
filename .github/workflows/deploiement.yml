@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-java@v4
 
         with:
-          distribution: 'termurin'
+          distribution: 'temurin'
           java-version: '24'
       - name: générer le livrable
         run: |
